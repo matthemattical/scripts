@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# grep that recursively greps from the cwd, and automatically passes colors to less
+grep -r --color=always $1 ./ | less;

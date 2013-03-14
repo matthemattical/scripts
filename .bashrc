@@ -120,3 +120,4 @@ export LESS='-R'
 export LESSOPEN='|~/scripts/.lessfilter %s'
 
 alias grepl='~/scripts/.grepl'
+alias greprl='~/scripts/.greprl'
