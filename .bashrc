@@ -115,5 +115,8 @@ fi
 
 set -o vi
 
+# for .lessfilter script -- does coloring in less using pygments
 export LESS='-R'
 export LESSOPEN='|~/scripts/.lessfilter %s'
+
+alias grepl='~/scripts/.grepl'

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# grep that automatically uses color and less
+grep --color=always $@ | less;
